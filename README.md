@@ -123,22 +123,6 @@ NutriScan/
 - **Moderately Healthy** ⚠️: Calories < 600, Sugar < 25g, Fat < 20g
 - **Unhealthy** ❌: Above moderate thresholds
 
-## 📊 API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - User login
-- `GET /api/auth/profile` - Get user profile
-
-### Food Scanning
-- `POST /api/food/scan` - Upload and scan food image
-- `GET /api/food/history` - Get scan history
-- `GET /api/food/insights` - Get nutrition insights
-
-### Nutrition
-- `GET /api/nutrition/:foodId` - Get detailed nutrition info
-- `GET /api/nutrition/alternatives/:foodId` - Get healthier alternatives
-
 ## 🧪 Testing
 
 ```bash
@@ -150,15 +134,3 @@ pytest
 cd frontend
 npm test
 ```
-
-## 📝 License
-
-MIT License
-
-## 🤝 Contributing
-
-Contributions welcome! Please read our contributing guidelines first.
-
-## 📧 Contact
-
-For questions or support, please open an issue on GitHub.
