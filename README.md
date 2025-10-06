@@ -5,7 +5,7 @@ An intelligent food recognition and nutrition analysis application that helps us
 ## 🔹 Features
 
 - **Food Recognition**: Upload or scan food images using AI-powered image classification
-- **📸 Real-Time Camera Scanning**: Capture food photos directly from your camera (NEW!)
+- **Real-Time Camera Scanning**: Capture food photos directly from your camera (NEW!)
 - **Nutrition Analysis**: Get detailed nutritional information (calories, sugar, fat, protein, etc.)
 - **Health Score**: Automatic classification as Healthy/Moderately Healthy/Unhealthy
 - **User Dashboard**: Track scanned foods, view history, and nutrition insights
