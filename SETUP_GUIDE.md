@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Navigate to backend directory:**
    ```bash
-   cd C:\Users\Monica\CascadeProjects\NutriScan\backend
+   cd C:\Users\..\NutriScan\backend
    ```
 
 2. **Create virtual environment:**
@@ -66,13 +66,7 @@ Before you begin, ensure you have the following installed:
    ```
 
 6. **Edit .env file with your settings:**
-   ```env
-   MONGODB_URI=mongodb://localhost:27017/nutriscan
-   JWT_SECRET=your_super_secret_key_change_this
-   USDA_API_KEY=your_usda_api_key_optional
-   FLASK_ENV=development
-   PORT=5000
-   ```
+
 
 7. **Run the backend:**
    ```bash
@@ -89,7 +83,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Open new terminal and navigate to frontend:**
    ```bash
-   cd C:\Users\Monica\CascadeProjects\NutriScan\frontend
+   cd C:\Users\..\NutriScan\frontend
    ```
 
 2. **Install dependencies:**
