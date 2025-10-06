@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed:
 #### Option B: MongoDB Atlas (Cloud)
 1. Create free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 2. Create a new cluster
-3. Get connection string (looks like: `mongodb+srv://username:password@cluster.mongodb.net/nutriscan`)
+3. Get connection string 
 
 ### Step 2: Backend Setup
 
