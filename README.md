@@ -73,41 +73,6 @@ JWT_SECRET=your_secret_key_here
 USDA_API_KEY=your_usda_api_key_here
 ```
 
-## 📁 Project Structure
-
-```
-NutriScan/
-├── backend/
-│   ├── app.py                 # Flask application entry point
-│   ├── config.py              # Configuration settings
-│   ├── requirements.txt       # Python dependencies
-│   ├── models/
-│   │   ├── user.py           # User model
-│   │   ├── scan_history.py   # Scan history model
-│   │   └── food_model.py     # ML model wrapper
-│   ├── routes/
-│   │   ├── auth.py           # Authentication routes
-│   │   ├── food.py           # Food scanning routes
-│   │   └── user.py           # User profile routes
-│   ├── services/
-│   │   ├── ml_service.py     # ML prediction service
-│   │   ├── nutrition_service.py  # Nutrition API service
-│   │   └── health_scorer.py  # Health scoring logic
-│   └── ml_models/
-│       └── food_classifier.h5  # Trained model
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/       # React components
-│   │   ├── pages/            # Page components
-│   │   ├── services/         # API services
-│   │   ├── utils/            # Utility functions
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
-```
-
 ## 🔄 User Flow
 
 1. User opens app → uploads/scans food image 📸
@@ -122,15 +87,3 @@ NutriScan/
 - **Healthy** ✅: Calories < 400, Sugar < 15g, Fat < 10g
 - **Moderately Healthy** ⚠️: Calories < 600, Sugar < 25g, Fat < 20g
 - **Unhealthy** ❌: Above moderate thresholds
-
-## 🧪 Testing
-
-```bash
-# Backend tests
-cd backend
-pytest
-
-# Frontend tests
-cd frontend
-npm test
-```
