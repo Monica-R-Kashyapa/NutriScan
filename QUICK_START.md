@@ -14,7 +14,7 @@ Get NutriScan running in 5 minutes!
 
 ```bash
 # Navigate to backend
-cd C:\Users\Monica\CascadeProjects\NutriScan\backend
+cd C:\Users\...\NutriScan\backend
 
 # Create virtual environment
 python -m venv venv
@@ -43,7 +43,7 @@ Open **new terminal**:
 
 ```bash
 # Navigate to frontend
-cd C:\Users\Monica\CascadeProjects\NutriScan\frontend
+cd C:\Users\...\NutriScan\frontend
 
 # Install dependencies
 npm install
@@ -56,7 +56,7 @@ npm start
 
 ### 3️⃣ Start Using (1 minute)
 
-1. **Register**: Create account at `http://localhost:3000`
+1. **Register**: Create account 
 2. **Scan**: Click "Scan Food" → Upload image → Get results!
 3. **Explore**: Check Dashboard, History, and Insights
 
@@ -64,31 +64,9 @@ npm start
 
 You're now running NutriScan locally!
 
-## 🔧 Common Issues
-
-**MongoDB not running?**
-```bash
-# Windows
-net start MongoDB
-
-# Or use MongoDB Atlas (cloud) - free tier available
-```
-
-**Port already in use?**
-- Backend: Change `PORT=5001` in `.env`
-- Frontend: Press 'Y' when prompted to use different port
-
 ## 📚 Next Steps
 
 - Read [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed setup
-- Check [FEATURES.md](FEATURES.md) for all features
 - See [README.md](README.md) for project overview
-
-## 💡 Tips
-
-- App works without ML model (uses fallback mode)
-- USDA API key is optional
-- MongoDB Atlas is easier than local MongoDB
-- Use demo images from Google for testing
 
 Happy scanning! 🍎
