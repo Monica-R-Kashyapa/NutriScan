@@ -70,8 +70,8 @@ The NutriScan system follows a modular web-based architecture with clear separat
 
 ### Scan Food using Image 
 <p align="center">
-  <img src="Screenshots/scanfood%20do.png" alt="Image 1" width="45%"/>
-  <img src="Screenshots/scanfood.png" alt="Image 2" width="45%"/>
+  <img src="Screenshots/scanfood.png" alt="Image 1" width="45%"/>
+  <img src="Screenshots/scanfood%20do.png" alt="Image 2" width="45%"/>
 </p>
 
 ### Real Time Scanning
@@ -85,8 +85,8 @@ The NutriScan system follows a modular web-based architecture with clear separat
 
 ### Insights 
 <p align="center">
-  <img src="Screenshots/Insights1.png" alt="Image 1" width="45%"/>
-  <img src="Screenshots/Insights.png" alt="Image 2" width="45%"/>
+  <img src="Screenshots/Insights.png" alt="Image 1" width="45%"/>
+  <img src="Screenshots/Insights1.png" alt="Image 2" width="45%"/>
 </p>
 
 ---
